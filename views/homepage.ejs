@@ -1,0 +1,21 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Game! </title>
+  </head>
+  <body>
+     <h1> Gaming Title: <%= gameTitle %> </h1> 
+     <h2> Game Creator: Unknown</h2>
+
+     <% if (gameTitle == "Fortnite") { %>
+          <p> Description: Fortnite is a free-to-play battle royale game developed and published by Epic Games. It was released on the Nintendo Switch in June 2018.</p>
+     <% } else { %>
+          <p> Description: Unknown game </p>
+    <% }   %>  
+     }
+  </body>
+  </html>
